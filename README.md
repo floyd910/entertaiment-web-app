@@ -25,6 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/floyd910/entertaiment-web-app]
+- Live URL: [https://astounding-cassata-d919f5.netlify.app/]
 
 ## My process
 
