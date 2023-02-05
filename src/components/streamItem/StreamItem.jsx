@@ -1,4 +1,3 @@
-import streamImg from "../../assets/thumbnails/large.jpg";
 import categoryTv from "../../assets/icon-category-tv.svg";
 import categoryMovie from "../../assets/icon-category-movie.svg";
 import bookmarkEmpty from "../../assets/icon-bookmark-empty.svg";
