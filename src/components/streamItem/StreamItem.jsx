@@ -11,7 +11,7 @@ export default function StreamItem({ stream, bookmarkStream }) {
   };
   
     var imagePath =
-    thumbnail.regular.large
+    stream.thumbnail.regular.large
    ;
 
   return (
