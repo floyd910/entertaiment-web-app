@@ -10,11 +10,15 @@ export default function StreamItem({ stream, bookmarkStream }) {
   const tvStyle = {
     height: "7.2px"
   };
+  
+    var imagePath =
+    thumbnail.regular.large
+   ;
 
   return (
     <div className="stream-item">
       <div className="thumbnail-place">
-        <img className="thumbnail" src={streamImg} alt={stream.title} />
+        <img className="thumbnail" src={imagePath} alt={stream.title} />
         <div className="play-container">
           <button className="play-btn">
             <img src={play} alt="Play icon" />
