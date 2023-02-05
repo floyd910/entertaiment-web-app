@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import "swiper/css";
+import "swiper/swiper.min.css";
 import "./Trending.css";
 import StreamItem from "../streamItem/StreamItem";
 export default function Trending({ trending, bookmarkStream }) {
