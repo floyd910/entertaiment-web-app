@@ -1,0 +1,87 @@
+nav {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #161d2f;
+  padding: 16px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  list-style-type: none;
+}
+
+.hovered-main,
+.hovered-movies,
+.hovered-tv,
+.hovered-bookmark {
+  display: none;
+}
+
+.hover-main:hover + .hovered-main {
+  display: inline-block;
+}
+
+.hover-main:hover {
+  display: none;
+}
+
+.hover-movies:hover + .hovered-movies {
+  display: inline-block;
+}
+
+.hover-movies:hover {
+  display: none;
+}
+
+.hover-tv:hover + .hovered-tv {
+  display: inline-block;
+}
+
+.hover-tv:hover {
+  display: none;
+}
+
+.hover-bookmark:hover + .hovered-bookmark {
+  display: inline-block;
+}
+
+.hover-bookmark:hover {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    margin: 23px auto 0 auto;
+    height: 72px;
+    width: calc(100% - 49px);
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  nav {
+    flex-direction: column;
+    height: calc(100vh - 64px);
+    width: 96px;
+    border-radius: 20px;
+    position: fixed;
+    top: 32px;
+    left: 32px;
+    bottom: 32px;
+    padding: 35px 0 32px 0;
+    z-index: 2;
+    margin-top: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -45px;
+  }
+}

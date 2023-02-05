@@ -1,0 +1,73 @@
+.App {
+  font-family: "Antonio", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background: #10141e;
+  padding-bottom: 61px;
+}
+
+button,
+input {
+  background: transparent;
+  cursor: pointer;
+  /* border: 0; */
+}
+
+button {
+  border: none;
+}
+
+button:focus {
+  outline: 1px solid transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.3125px;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 26px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding-bottom: 56px;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    margin-top: 33px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  body {
+    padding-bottom: 52px;
+  }
+  h1 {
+    margin-top: 40px;
+  }
+
+  .content {
+    margin-left: 132px;
+  }
+}

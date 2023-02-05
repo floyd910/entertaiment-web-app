@@ -1,0 +1,46 @@
+.trending {
+  margin-top: 24px;
+  padding-left: 16px;
+}
+
+.swiper {
+  margin-top: 10px;
+  cursor: default;
+}
+
+.tablet,
+.desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .trending {
+    margin-top: 33px;
+    padding-left: 25px;
+  }
+  .swiper {
+    margin-top: 12px;
+  }
+  .mb,
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .trending {
+    margin-top: 34px;
+    padding-left: 36px;
+  }
+
+  .mb,
+  .tablet {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+}
